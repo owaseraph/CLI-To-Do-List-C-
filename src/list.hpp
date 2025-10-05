@@ -22,6 +22,9 @@ class List{
             Task newTask{title, false};
             tasks.push_back(newTask);
         }
+        const vector<Task>& GetTasks(){
+            return tasks;
+        }
         void ViewTasks(void){
            if(tasks.empty()){
                 cerr<<"No tasks yet!\n";

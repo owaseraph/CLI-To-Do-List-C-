@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ToDoListCLI.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\ToDoListCLI.dir/objects.a @CMakeFiles\ToDoListCLI.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ToDoListCLI.dir/objects.a -Wl,--no-whole-archive -o ToDoListCLI.exe -Wl,--out-implib,libToDoListCLI.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ToDoListCLI.dir\linkLibs.rsp

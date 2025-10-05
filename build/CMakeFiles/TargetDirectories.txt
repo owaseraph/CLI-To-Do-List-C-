@@ -1,0 +1,4 @@
+E:/VS Code Repos/To do list/build/CMakeFiles/ToDoListGUI.dir
+E:/VS Code Repos/To do list/build/CMakeFiles/ToDoListCLI.dir
+E:/VS Code Repos/To do list/build/CMakeFiles/edit_cache.dir
+E:/VS Code Repos/To do list/build/CMakeFiles/rebuild_cache.dir

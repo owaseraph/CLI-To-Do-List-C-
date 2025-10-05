@@ -1,0 +1,62 @@
+[
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\src\\main_gui.cpp.obj -c \"E:\\VS Code Repos\\To do list\\src\\main_gui.cpp\"",
+  "file": "E:/VS Code Repos/To do list/src/main_gui.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/src/main_gui.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/ToDoListGUI.dir/includes_C.rsp -g -o CMakeFiles\\ToDoListGUI.dir\\src\\glad.c.obj -c \"E:\\VS Code Repos\\To do list\\src\\glad.c\"",
+  "file": "E:/VS Code Repos/To do list/src/glad.c",
+  "output": "CMakeFiles/ToDoListGUI.dir/src/glad.c.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\third_party\\imgui\\imgui.cpp.obj -c \"E:\\VS Code Repos\\To do list\\third_party\\imgui\\imgui.cpp\"",
+  "file": "E:/VS Code Repos/To do list/third_party/imgui/imgui.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\third_party\\imgui\\imgui_draw.cpp.obj -c \"E:\\VS Code Repos\\To do list\\third_party\\imgui\\imgui_draw.cpp\"",
+  "file": "E:/VS Code Repos/To do list/third_party/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\third_party\\imgui\\imgui_widgets.cpp.obj -c \"E:\\VS Code Repos\\To do list\\third_party\\imgui\\imgui_widgets.cpp\"",
+  "file": "E:/VS Code Repos/To do list/third_party/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\third_party\\imgui\\imgui_tables.cpp.obj -c \"E:\\VS Code Repos\\To do list\\third_party\\imgui\\imgui_tables.cpp\"",
+  "file": "E:/VS Code Repos/To do list/third_party/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp.obj -c \"E:\\VS Code Repos\\To do list\\third_party\\imgui\\backends\\imgui_impl_glfw.cpp\"",
+  "file": "E:/VS Code Repos/To do list/third_party/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/third_party/imgui/backends/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListGUI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListGUI.dir\\third_party\\imgui\\backends\\imgui_impl_opengl3.cpp.obj -c \"E:\\VS Code Repos\\To do list\\third_party\\imgui\\backends\\imgui_impl_opengl3.cpp\"",
+  "file": "E:/VS Code Repos/To do list/third_party/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/ToDoListGUI.dir/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListCLI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListCLI.dir\\src\\main.cpp.obj -c \"E:\\VS Code Repos\\To do list\\src\\main.cpp\"",
+  "file": "E:/VS Code Repos/To do list/src/main.cpp",
+  "output": "CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/VS Code Repos/To do list/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/ToDoListCLI.dir/includes_C.rsp -g -o CMakeFiles\\ToDoListCLI.dir\\src\\glad.c.obj -c \"E:\\VS Code Repos\\To do list\\src\\glad.c\"",
+  "file": "E:/VS Code Repos/To do list/src/glad.c",
+  "output": "CMakeFiles/ToDoListCLI.dir/src/glad.c.obj"
+}
+]
