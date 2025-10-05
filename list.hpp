@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <sstream>
 using namespace std;
 
 class List{
@@ -56,6 +57,47 @@ class List{
                 return;
             }
             
+        }
+        void LoadfromFile(const string& filename){
+            ifstream file(filename);
+            if(!file.is_open()){
+                cerr<<"No saved tasks found. Starting fresh...\n";
+                return;
+            }
+            tasks.clear(); //clearing the current list
+
+            string line;
+            while(getline(file,line)){
+                if(line.empty())
+                    continue;
+                stringstream ss(line);
+
+                string statusStr, title;
+
+                if(!(getline(ss,statusStr,';')))
+                    continue;
+                if(!(getline(ss,title)))
+                    continue;
+                
+                bool completed = (statusStr=="1");
+                tasks.push_back(Task{title,completed});
+            }
+            file.close();
+            cout<<"Loaded "<<tasks.size()<<" tasks from file...\n";
+
+        }
+        void SaveToFile(const string& filename){
+            ofstream file(filename);
+            if(!file.is_open()){
+                cerr<<"Could not export safely!\n";
+                return;
+            }
+
+            for(const auto& t: tasks){
+                file<<(t.completed?"[x] ":"[] ")<<t.title<<"\n";
+            }
+            file.close();
+            cout<<"Tasks exported successfully!\n";
         }
         friend ofstream& operator<<(ofstream &stream, List list);
 };

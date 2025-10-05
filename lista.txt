@@ -1,0 +1,4 @@
+1;Mama
+0;Tata
+0;Rares
+1;Sabi
