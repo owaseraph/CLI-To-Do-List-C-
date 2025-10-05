@@ -1,0 +1,4 @@
+E:/VS Code Repos/To do list/Release/CMakeFiles/ToDoListGUI.dir
+E:/VS Code Repos/To do list/Release/CMakeFiles/ToDoListCLI.dir
+E:/VS Code Repos/To do list/Release/CMakeFiles/ALL_BUILD.dir
+E:/VS Code Repos/To do list/Release/CMakeFiles/ZERO_CHECK.dir

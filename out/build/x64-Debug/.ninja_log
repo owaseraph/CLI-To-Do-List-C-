@@ -1,0 +1,13 @@
+# ninja log v6
+17	247	7813807949571050	CMakeFiles/ToDoListCLI.dir/src/glad.c.obj	c6f4fc55f2b6ba6f
+10	529	7813807949495851	CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj	b58a5a05d981c932
+529	875	7813807954696757	ToDoListCLI.exe	1bdd7b77bc35f52a
+18	329	7813808067999559	CMakeFiles/ToDoListGUI.dir/src/glad.c.obj	4869312003c7d634
+30	497	7813808068123462	CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui_widgets.cpp.obj	bd31fe16a2bc7dd0
+44	378	7813808068260641	CMakeFiles/ToDoListGUI.dir/third_party/imgui/backends/imgui_impl_opengl3.cpp.obj	3601710cbe36471d
+35	380	7813808068173496	CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui_tables.cpp.obj	9a49f0ffb5b3c49f
+26	455	7813808068088275	CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui_draw.cpp.obj	71a0999ab6072841
+39	539	7813808068213528	CMakeFiles/ToDoListGUI.dir/third_party/imgui/backends/imgui_impl_glfw.cpp.obj	4eba5f2735b95977
+11	676	7813808067929500	CMakeFiles/ToDoListGUI.dir/src/main_gui.cpp.obj	db10910b5965e2
+22	680	7813808068038229	CMakeFiles/ToDoListGUI.dir/third_party/imgui/imgui.cpp.obj	79ab202f05c413df
+680	1092	7813808074628243	ToDoListGUI.exe	4b2a2fe4588e71b6

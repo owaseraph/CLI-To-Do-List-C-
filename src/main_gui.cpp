@@ -8,6 +8,8 @@
 #include <vector>
 
 int main() {
+    // Main GUI entry point for the To-Do List application
+
     // Initialize GLFW
     if (!glfwInit()) {
         std::cerr << "Failed to initialize GLFW\n";
@@ -17,6 +19,7 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
+    // Create a GLFW window
     GLFWwindow* window = glfwCreateWindow(800, 600, "To-Do List GUI", nullptr, nullptr);
     if (!window) {
         std::cerr << "Failed to create GLFW window\n";
@@ -26,7 +29,7 @@ int main() {
     glfwMakeContextCurrent(window);
     glfwSwapInterval(1); // Enable vsync
 
-    // Initialize GLAD
+    // Initialize GLAD for OpenGL function loading
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         std::cerr << "Failed to initialize GLAD\n";
         return -1;
@@ -41,9 +44,9 @@ int main() {
     ImGui_ImplOpenGL3_Init("#version 330");
 
     // To-Do List Logic
-    List todoList;
-    std::string exportFileName = "default.txt";
-    bool exported = false;
+    List todoList;                  // To-Do list object
+    std::string exportFileName = "default.txt"; // Default export file name
+    bool exported = false;          // Tracks if the list has been exported
 
     // Main loop
     while (!glfwWindowShouldClose(window)) {
@@ -121,7 +124,7 @@ int main() {
         glfwSwapBuffers(window);
     }
 
-    // Cleanup
+    // Cleanup ImGui and GLFW resources
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
