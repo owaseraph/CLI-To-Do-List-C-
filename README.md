@@ -25,13 +25,13 @@ A feature-rich **To-Do List Application** built with **C++**, offering both **Co
 ## Project Structure
 ```bash
 ├── To-Do-List
-│   ├── CMakeLists.txt # Build Configuration #
-│   ├── include # Header files #
-│   ├── lib # Precompiled libraries #
-│   ├── src # Source files #
-│   ├── third_party # Third-party libraries (Dear ImGui) #
-│   ├── build # Build output directory #
-│   ├── .vscode/ # VS Code configuration files #
+│   ├── CMakeLists.txt # Build Configuration 
+│   ├── include # Header files 
+│   ├── lib # Precompiled libraries 
+│   ├── src # Source files 
+│   ├── third_party # Third-party libraries (Dear ImGui) 
+│   ├── build # Build output directory 
+│   ├── .vscode/ # VS Code configuration files 
 │   └── README.md # Project documentation
 ```
 
