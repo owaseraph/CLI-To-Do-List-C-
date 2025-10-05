@@ -1,0 +1,4 @@
+1;Wash Dishes
+0;Clean Bedroom
+0;Feed Cats
+1;Take out Trash
