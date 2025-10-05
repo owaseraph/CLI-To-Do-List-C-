@@ -63,7 +63,6 @@ A feature-rich **To-Do List Application** built with **C++**, offering both **Co
     ```bash
     ./ToDoListGUI
 
-
 ## Usage
 
 ### CLI Version
