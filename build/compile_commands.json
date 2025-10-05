@@ -49,9 +49,9 @@
 },
 {
   "directory": "E:/VS Code Repos/To do list/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListCLI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListCLI.dir\\src\\main.cpp.obj -c \"E:\\VS Code Repos\\To do list\\src\\main.cpp\"",
-  "file": "E:/VS Code Repos/To do list/src/main.cpp",
-  "output": "CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/ToDoListCLI.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ToDoListCLI.dir\\src\\main_cli.cpp.obj -c \"E:\\VS Code Repos\\To do list\\src\\main_cli.cpp\"",
+  "file": "E:/VS Code Repos/To do list/src/main_cli.cpp",
+  "output": "CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj"
 },
 {
   "directory": "E:/VS Code Repos/To do list/build",

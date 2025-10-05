@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/VS Code Repos/To do list/src/glad.c" "CMakeFiles/ToDoListCLI.dir/src/glad.c.obj" "gcc" "CMakeFiles/ToDoListCLI.dir/src/glad.c.obj.d"
-  "E:/VS Code Repos/To do list/src/main.cpp" "CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj" "gcc" "CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj.d"
+  "E:/VS Code Repos/To do list/src/main_cli.cpp" "CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj" "gcc" "CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

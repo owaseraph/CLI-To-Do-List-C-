@@ -168,29 +168,29 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/main_cli.obj: src/main_cli.cpp.obj
+.PHONY : src/main_cli.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/main_cli.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj
+.PHONY : src/main_cli.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/main_cli.i: src/main_cli.cpp.i
+.PHONY : src/main_cli.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/main_cli.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.i
+.PHONY : src/main_cli.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/main_cli.s: src/main_cli.cpp.s
+.PHONY : src/main_cli.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/main_cli.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ToDoListCLI.dir\build.make CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.s
+.PHONY : src/main_cli.cpp.s
 
 src/main_gui.obj: src/main_gui.cpp.obj
 .PHONY : src/main_gui.obj
@@ -373,9 +373,9 @@ help:
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/main_cli.obj
+	@echo ... src/main_cli.i
+	@echo ... src/main_cli.s
 	@echo ... src/main_gui.obj
 	@echo ... src/main_gui.i
 	@echo ... src/main_gui.s

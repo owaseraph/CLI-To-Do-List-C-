@@ -71,20 +71,20 @@ include CMakeFiles/ToDoListCLI.dir/flags.make
 CMakeFiles/ToDoListCLI.dir/codegen:
 .PHONY : CMakeFiles/ToDoListCLI.dir/codegen
 
-CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj: CMakeFiles/ToDoListCLI.dir/flags.make
-CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj: CMakeFiles/ToDoListCLI.dir/includes_CXX.rsp
-CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj: E:/VS\ Code\ Repos/To\ do\ list/src/main.cpp
-CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj: CMakeFiles/ToDoListCLI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\VS Code Repos\To do list\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj -MF CMakeFiles\ToDoListCLI.dir\src\main.cpp.obj.d -o CMakeFiles\ToDoListCLI.dir\src\main.cpp.obj -c "E:\VS Code Repos\To do list\src\main.cpp"
+CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj: CMakeFiles/ToDoListCLI.dir/flags.make
+CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj: CMakeFiles/ToDoListCLI.dir/includes_CXX.rsp
+CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj: E:/VS\ Code\ Repos/To\ do\ list/src/main_cli.cpp
+CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj: CMakeFiles/ToDoListCLI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="E:\VS Code Repos\To do list\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj -MF CMakeFiles\ToDoListCLI.dir\src\main_cli.cpp.obj.d -o CMakeFiles\ToDoListCLI.dir\src\main_cli.cpp.obj -c "E:\VS Code Repos\To do list\src\main_cli.cpp"
 
-CMakeFiles/ToDoListCLI.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToDoListCLI.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\VS Code Repos\To do list\src\main.cpp" > CMakeFiles\ToDoListCLI.dir\src\main.cpp.i
+CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\VS Code Repos\To do list\src\main_cli.cpp" > CMakeFiles\ToDoListCLI.dir\src\main_cli.cpp.i
 
-CMakeFiles/ToDoListCLI.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToDoListCLI.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\VS Code Repos\To do list\src\main.cpp" -o CMakeFiles\ToDoListCLI.dir\src\main.cpp.s
+CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\VS Code Repos\To do list\src\main_cli.cpp" -o CMakeFiles\ToDoListCLI.dir\src\main_cli.cpp.s
 
 CMakeFiles/ToDoListCLI.dir/src/glad.c.obj: CMakeFiles/ToDoListCLI.dir/flags.make
 CMakeFiles/ToDoListCLI.dir/src/glad.c.obj: CMakeFiles/ToDoListCLI.dir/includes_C.rsp
@@ -103,13 +103,13 @@ CMakeFiles/ToDoListCLI.dir/src/glad.c.s: cmake_force
 
 # Object files for target ToDoListCLI
 ToDoListCLI_OBJECTS = \
-"CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj" \
+"CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj" \
 "CMakeFiles/ToDoListCLI.dir/src/glad.c.obj"
 
 # External object files for target ToDoListCLI
 ToDoListCLI_EXTERNAL_OBJECTS =
 
-ToDoListCLI.exe: CMakeFiles/ToDoListCLI.dir/src/main.cpp.obj
+ToDoListCLI.exe: CMakeFiles/ToDoListCLI.dir/src/main_cli.cpp.obj
 ToDoListCLI.exe: CMakeFiles/ToDoListCLI.dir/src/glad.c.obj
 ToDoListCLI.exe: CMakeFiles/ToDoListCLI.dir/build.make
 ToDoListCLI.exe: E:/VS\ Code\ Repos/To\ do\ list/lib/libglfw3dll.a

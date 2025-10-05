@@ -23,7 +23,7 @@ set(SOURCES_GUI
 )
 
 set(SOURCES_CLI
-    src/main.cpp
+    src/main_cli.cpp
     src/glad.c
 )
 
